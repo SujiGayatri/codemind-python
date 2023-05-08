@@ -1,10 +1,6 @@
 n=int(input())
-s=0
-i=0
-while i<n:
-    s=s+i
-    i+=1
-if s%2==0:
-    print(0)
+x=map(int,input().split())
+if sum(x)%2==0:
+    print("1")
 else:
-    print(1)
+    print("0")
