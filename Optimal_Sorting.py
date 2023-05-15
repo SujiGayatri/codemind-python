@@ -1,12 +1,10 @@
-x=int(input())
-for i in range(x):
-    n=int(input())
-    a=list(map(int,input().split()))
-    k=[]
-    for i in a:
-        k.append(i)
-    a.sort()
-    if k==a:
-        print("0")
+a=int(input())
+while a:
+    b=int(input())
+    s=list(map(int,input().split()))
+    b=sorted(s)
+    if s==b:
+       print(0)
     else:
-        print(max(a)-min(a))
+       print(max(b)-min(b))
+    a-=1
