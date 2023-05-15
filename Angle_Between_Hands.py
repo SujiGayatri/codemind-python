@@ -1,4 +1,4 @@
-def calcAngle(h,m):
+def Angle(h,m):
 	if (h == 12):
 		h = 0
 	if (m == 60):
@@ -12,4 +12,4 @@ def calcAngle(h,m):
 	angle = min(360 - angle, angle)
 	return angle
 h,m=map(int,input().split(':'))
-print( calcAngle(h,m))
+print(Angle(h,m))
