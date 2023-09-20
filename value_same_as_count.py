@@ -1,8 +1,8 @@
 n=int(input())
 a=list(map(int,input().split()))
-b=set(a)
+x=set(a)
 c=0
-for i in b:
+for i in x:
     if a.count(i)==i:
-        c+=1
+       c+=1
 print(c)
