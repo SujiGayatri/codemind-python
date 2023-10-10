@@ -1,7 +1,7 @@
-n=input()
-if n in 'abcdefghijklmnopqrstuvwxyz':
-    print("lowercase alphabet")
-elif n in 'ABCDEFGHIJKLMNOPQRSTUVWXYZ':
+ch=str(input())
+if ch>='A'and ch<='Z':
     print("uppercase alphabet")
+elif ch>='a' and ch<='z':
+    print("lowercase alphabet")
 else:
     print("not an alphabet")
