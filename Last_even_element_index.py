@@ -1,6 +1,6 @@
 n=int(input())
-s=list(map(int,input().split()))
-for i in range(n-1,-1,-1):
-    if s[i]%2==0:
-        a=i
-print(a)
+a=list(map(int,input().split()))
+for i in range(len(a)-1,-1,-1):
+    if a[i]%2==0:
+        print(i)
+        break
