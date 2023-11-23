@@ -1,9 +1,8 @@
 n=int(input())
-s=list(map(int,input().split()))
-x=sum(s)
-b=0
-c=x//n
+l=list(map(int,input().split()))
+a=sum(l)//n
+c=0
 for i in range(n):
-    if s[i]>=c:
-        b+=1
-print(b)
+    if l[i]>=a:
+        c+=1
+print(c)
